@@ -92,7 +92,7 @@ public class Main2Activity extends AppCompatActivity implements View.OnClickList
             startActivity(intent);
 
         }
-         //else.Toast.makeText(getApplicationContext(), "Debe seleccionar todas las opciones",Toast.LENGTH_SHORT).show();
+         else Toast.makeText(getApplicationContext(), "Debe seleccionar todas las opciones",Toast.LENGTH_SHORT).show();
         return;
     }
 }
